@@ -1,6 +1,7 @@
 # This is a Project 3 for Udaicty Self-Driving Nano-degree course.  
 This was initially cloned from Udacity repository (see below).
 
+* writeup_report.md -> my project repport.
 * model_hkawanishi_final.ipynb -> my model using Jupyter Notebook.
 * model_hkawanishi_final.py -> convert the above ipynb file to py file.  same as model.py
 * model.py -> same as model_hkawanishi_final.py
