@@ -1,3 +1,11 @@
+# This is a Project 3 for Udaicty Self-Driving Nano-degree course.  
+This was initially cloned from Udacity repository (see below).
+
+* model_hkawanishi_final.ipynb -> my model using Jupyter Notebook.
+* model_hkawanishi_final.py -> convert the above ipynb file to py file.  same as model.py
+* model.py -> same as model_hkawanishi_final.py
+* video.py, drive.py -> provided by udacity
+
 # Project 3: Use Deep Learning to Clone Driving Behavior
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
