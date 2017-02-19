@@ -95,9 +95,8 @@ After adding all available training set and improving the model, there were stil
 
 My model consists of a convolution neural network (model.py lines 102-127)
 
-____________________________________________________________________________________________________
-Layer (type)                     Output Shape          Param #     Connected to                     
-====================================================================================================
+Layer (type)                     Output Shape          Param #     Connected to
+
 lambda_1 (Lambda)                (None, 160, 320, 3)   0           lambda_input_1[0][0]             
 ____________________________________________________________________________________________________
 cropping2d_1 (Cropping2D)        (None, 85, 320, 3)    0           lambda_1[0][0]                   
@@ -147,7 +146,7 @@ ________________________________________________________________________________
 activation_7 (Activation)        (None, 10)            0           dense_2[0][0]                    
 ____________________________________________________________________________________________________
 dense_3 (Dense)                  (None, 1)             11          activation_7[0][0]               
-====================================================================================================
+
 
 
 ####3. Creation of the Training Set & Training Process
@@ -156,7 +155,7 @@ As I wrote above, I had a hard time driving a vehicle using a mouse/keyboard ini
 
 The example images are below.  Each image had center, left, and right camera iamges.  For all left images, the steering correction of 0.18 is added.  For the right images, the same amount was subtracted.
 
-![center][center_image]
+![center][center]
 ![left][left]
 ![right][right]
 
@@ -164,7 +163,7 @@ Then I repeated this process on track two in order to get more data points.
 
 I noticed the vehicle always veered to left since the training data only contained the left turn.  To augment the data set, I also flipped images and multiplied the steering angle to -1.0.  For example, here is an image that has then been flipped:
 
-![flipped][center_image_flipped]
+![flipped][center_flipped]
 
 
 After the collection process, I had 25712 number of data points. I then preprocessed this data by using a model generator.  I randomly shuffling the data set and put 20% of the data into a validation set. 
