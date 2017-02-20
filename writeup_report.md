@@ -1,5 +1,7 @@
 **Behavioral Cloning Project**
 
+the video link is: https://youtu.be/ZWzinOW7fGc
+
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior
 * Build, a convolution neural network in Keras that predicts steering angles from images
